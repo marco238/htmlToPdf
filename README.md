@@ -1,0 +1,1 @@
+HTML to PDF generation using "lit-html" syntax and "jspdf"

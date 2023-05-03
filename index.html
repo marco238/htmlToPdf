@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #download {
+      background-color: transparent;
+      border: 1px solid #00000090;
+      border-radius: 4px;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+  <h2>Página a crear:</h2>
+  <div id="pdfCanvas"></div>
+  <button id="download">Download</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
